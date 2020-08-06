@@ -36,6 +36,7 @@
 [<img align="left" alt="Firebase" width="26px" src="https://cdn.jsdelivr.net/npm/simple-icons@3.4.0/icons/firebase.svg" />](https://firebase.google.com/)
 [<img align="left" alt="Git" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/git/git.png" />](https://git-scm.com/)
 
+<br />
 ---
 
 [![Anmol's github stats](https://github-readme-stats.vercel.app/api?username=shresshres&count_private=true&show_icons=true&theme=dark)](https://github.com/anuraghazra/github-readme-stats)
