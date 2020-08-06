@@ -2,7 +2,7 @@
 
 ## I'm a Computer Science and Engineering student at [Lehigh University](https://www1.lehigh.edu/home)
 
-- 🔭 I’m currently working on a hawk-chat [(demo)](http://hawk-chat.netlify.app/)
+- 🔭 I’m currently working on hawk-chat [(demo)](http://hawk-chat.netlify.app/)
 - 🌱 I’m currently learning everything that interests me 🤣
 - 👯 I’m looking to collaborate on anything exciting
 - 🥅 2020 Goals: Contribute more to Open Source projects
