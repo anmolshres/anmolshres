@@ -40,10 +40,8 @@
 
 <br />
 
----
-
 [![Anmol's github stats](https://github-readme-stats.vercel.app/api?username=shresshres&count_private=true&show_icons=true&theme=dark)](https://github.com/anuraghazra/github-readme-stats)
 
----
+<br />
 
 [![Top Langs Anmol](https://github-readme-stats.vercel.app/api/top-langs/?username=shresshres)](https://github.com/anuraghazra/github-readme-stats)
