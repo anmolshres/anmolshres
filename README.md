@@ -8,6 +8,8 @@
 - 🥅 2020 Goals: Contribute more to Open Source projects
 - ⚡ Fun fact: My home country's calendar is [ahead](https://nepalicalendar.rat32.com/) and my ethnic group's calendar is [behind](https://en.wikipedia.org/wiki/Nepal_Sambat) the Gregorian calendar, so I'm living in the future, past, and present all at the same time 😁
 
+### Connect with me:
+
 [<img align="left" alt="shresshres | Twitter" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/twitter.svg" />](https://twitter.com/dat_tweet_thoo)
 [<img align="left" alt="shresshres | LinkedIn" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/linkedin.svg" />](https://www.linkedin.com/in/shrestha-anmol/)
 [<img align="left" alt="shresshres | Instagram" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/instagram.svg" />](https://www.instagram.com/dat_pic_thou/)
