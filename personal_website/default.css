@@ -355,6 +355,10 @@ h6 {
   justify-content: space-evenly;
 }
 
+#footer {
+	text-align: center;
+}
+
 @media screen and (max-width: 1200px) {
   .main-container {
     width: 95%;
