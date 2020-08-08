@@ -307,6 +307,12 @@ h6 {
   justify-content: center;
 }
 
+#github-stats {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, 520px);
+	gap: 50px;
+	justify-content: space-between;
+}
 .post-wrapper {
   display: grid;
   grid-template-columns: repeat(auto-fit, 320px);
