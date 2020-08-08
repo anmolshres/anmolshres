@@ -296,13 +296,15 @@ h6 {
 }
 
 #skills {
-  display: flex;
-  justify-content: space-evenly;
   background-color: var(--previewShadow);
+  padding: 1%;
 }
 
-#social_img {
-  width: 100%;
+#skills-icons {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 26px);
+  gap: 30px;
+  justify-content: center;
 }
 
 .post-wrapper {
