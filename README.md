@@ -45,7 +45,7 @@
 <br />
 <br />
 
-[![Anmol's github stats](https://github-readme-stats.shresshres.vercel.app/api?username=shresshres&count_private=true&show_icons=true&theme=dark)](https://github.com/anuraghazra/github-readme-stats)
+[![Anmol's github stats](https://github-readme-stats.shresshres.vercel.app/api?username=shresshres&count_private=true&show_icons=true)](https://github.com/anuraghazra/github-readme-stats)
 
 <br />
 
