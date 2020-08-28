@@ -296,7 +296,7 @@ h6 {
 }
 
 #skills {
-  background-color: var(--previewShadow);
+  /* background-color: var(--previewShadow); */
   padding: 1%;
 }
 
@@ -308,10 +308,10 @@ h6 {
 }
 
 #github-stats {
-	display: grid;
-	grid-template-columns: repeat(auto-fit, 520px);
-	gap: 50px;
-	justify-content: space-between;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 520px);
+  gap: 50px;
+  justify-content: space-between;
 }
 .post-wrapper {
   display: grid;
@@ -355,8 +355,9 @@ h6 {
   justify-content: space-evenly;
 }
 
-#footer,footer {
-	text-align: center;
+#footer,
+footer {
+  text-align: center;
 }
 
 @media screen and (max-width: 1200px) {
@@ -390,4 +391,9 @@ h6 {
   #preview {
     width: 280px;
   }
+}
+#now-playing-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
