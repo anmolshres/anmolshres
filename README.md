@@ -34,7 +34,7 @@
 [<img align="left" alt="Cypress" width="26px" src="https://cdn.jsdelivr.net/npm/simple-icons@3.4.0/icons/cypress.svg" />](https://www.cypress.io/)
 [<img align="left" alt="React" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/react/react.png" />](https://reactjs.org/)
 [<img align="left" alt="Expo" width="26px" src="https://is3-ssl.mzstatic.com/image/thumb/Purple113/v4/fe/86/6c/fe866cc3-62d1-cb5d-43be-96977132f418/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/246x0w.png" />](https://expo.io/learn)
-[<img align="left" alt="Scrapy" width="26px" src="https://blog.scrapinghub.com/hs-fs/hubfs/Imported_Blog_Media/scrapy.png?width=300&name=scrapy.png" />](https://scrapy.org/)
+[<img align="left" alt="Scrapy" width="26px" src="https://miro.medium.com/max/400/0*UEUUJ4ijRAPbnUJX.png" />](https://scrapy.org/)
 [<img align="left" alt="Selenium" width="26px" src="https://upload.wikimedia.org/wikipedia/commons/d/d5/Selenium_Logo.png" />](https://selenium-python.readthedocs.io/)
 [<img align="left" alt="SQL" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/sql/sql.png" />](https://www.w3schools.com/sql/)
 [<img align="left" alt="MongoDB" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/mongodb/mongodb.png" />](https://www.mongodb.com/)
