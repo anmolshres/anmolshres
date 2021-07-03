@@ -13,11 +13,11 @@
 
 ### Connect with me:
 
-[<img align="left" alt="shresshres | Twitter" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/twitter.svg" />](https://twitter.com/dat_tweet_thoo)
-[<img align="left" alt="shresshres | LinkedIn" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/linkedin.svg" />](https://www.linkedin.com/in/shrestha-anmol/)
-[<img align="left" alt="shresshres | Instagram" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/instagram.svg" />](https://www.instagram.com/dat_pic_thou/)
-[<img align="left" alt="shresshres | Facebook" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@3.4.0/icons/facebook.svg" />](https://www.facebook.com/dat.post.thou)
-[<img align="left" alt="shresshres | GMail" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@3.4.0/icons/gmail.svg" />](mailto:shrestha.anmol.as@gmail.com?subject=Hi👋Anmol)
+[<img align="left" alt="anmolshres | Twitter" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/twitter.svg" />](https://twitter.com/anmolshres)
+[<img align="left" alt="anmolshres | LinkedIn" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/linkedin.svg" />](https://www.linkedin.com/in/shrestha-anmol/)
+[<img align="left" alt="anmolshres | Instagram" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/instagram.svg" />](https://www.instagram.com/anmolshres/)
+[<img align="left" alt="anmolshres | Facebook" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@3.4.0/icons/facebook.svg" />](https://www.facebook.com/shresanmol)
+[<img align="left" alt="anmolshres | GMail" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@3.4.0/icons/gmail.svg" />](mailto:shrestha.anmol.as@gmail.com?subject=Hi👋Anmol)
 
 <br />
 
@@ -45,11 +45,11 @@
 <br />
 <br />
 
-[![Anmol's github stats](https://github-readme-stats.shresshres.vercel.app/api?username=shresshres&count_private=true&show_icons=true)](https://github.com/anuraghazra/github-readme-stats)
+[![Anmol's github stats](https://github-readme-stats.shresshres.vercel.app/api?username=anmolshres&count_private=true&show_icons=true)](https://github.com/anuraghazra/github-readme-stats)
 
 <br />
 
-[![Top Langs Anmol](https://github-readme-stats.vercel.app/api/top-langs/?username=shresshres)](https://github.com/anuraghazra/github-readme-stats)
+[![Top Langs Anmol](https://github-readme-stats.vercel.app/api/top-langs/?username=anmolshres)](https://github.com/anuraghazra/github-readme-stats)
 
 <br />
 
