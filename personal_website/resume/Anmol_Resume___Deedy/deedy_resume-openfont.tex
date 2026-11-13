@@ -1,0 +1,245 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Deedy - One Page Two Column Resume
+% LaTeX Template
+% Version 1.2 (16/9/2014)
+%
+% Original author:
+% Debarghya Das (http://debarghyadas.com)
+%
+% Original repository:
+% https://github.com/deedydas/Deedy-Resume
+%
+% IMPORTANT: THIS TEMPLATE NEEDS TO BE COMPILED WITH XeLaTeX
+%
+% This template uses several fonts not included with Windows/Linux by
+% default. If you get compilation errors saying a font is missing, find the line
+% on which the font is used and either change it to a font included with your
+% operating system or comment the line out to use the default font.
+% 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% 
+% TODO:
+% 1. Integrate biber/bibtex for article citation under publications.
+% 2. Figure out a smoother way for the document to flow onto the next page.
+% 3. Add styling information for a "Projects/Hacks" section.
+% 4. Add location/address information
+% 5. Merge OpenFont and MacFonts as a single sty with options.
+% 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% CHANGELOG:
+% v1.1:
+% 1. Fixed several compilation bugs with \renewcommand
+% 2. Got Open-source fonts (Windows/Linux support)
+% 3. Added Last Updated
+% 4. Move Title styling into .sty
+% 5. Commented .sty file.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% Known Issues:
+% 1. Overflows onto second page if any column's contents are more than the
+% vertical limit
+% 2. Hacky space on the first bullet point on the second column.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\documentclass[]{deedy-resume-openfont}
+\usepackage{fancyhdr}
+ 
+\pagestyle{fancy}
+\fancyhf{}
+ 
+\begin{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     LAST UPDATED DATE
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\lastupdated
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     TITLE NAME
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\namesection{Anmol}{Shrestha}{ \urlstyle{same}\href{https://www.anmolshrestha.com/}{anmolshrestha.com} | \href{https://www.linkedin.com/in/shrestha-anmol/}{linkedin.com/shrestha-anmol}\\
+\href{mailto:shrestha.anmol.as@gmail.com}{shrestha.anmol.as@gmail.com} | \href{tel:4847473285}{(484)747-3285} | \href{mailto:ans221@lehigh.edu}{ans221@lehigh.edu}
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     COLUMN ONE
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{minipage}[t]{0.33\textwidth} 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     EDUCATION
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Education} 
+
+\subsection{Lehigh University}
+\descript{BS in Computer Science}
+\descript{minor in Physics}
+\location{May 2021 | Bethlehem, PA}
+College of Engineering \\
+\location{ Cumulative GPA: 3.89 / 4.0 \\
+Major GPA: 3.91 / 4.0}
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     LINKS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Links} 
+Portfolio://  \href{https://www.anmolshrestha.com/}{\bf anmolshrestha.com} \\
+LinkedIn://  \href{https://www.linkedin.com/in/shrestha-anmol}{\bf shrestha-anmol} \\
+Github:// \href{https://github.com/shresshres}{\bf shresshres} \\
+Twitter://  \href{https://twitter.com/anmolshres}{\bf @anmolshres} \\
+Email://  \href{mailto:shrestha.anmol.as@gmail.com}{\bf shrestha.anmol.as} \\
+Lehigh Email://  \href{mailto:ans221@lehigh.edu}{\bf ans221}
+
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     COURSEWORK
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Coursework}
+\subsection{Undergraduate}
+Design and Analysis of Algorithms \\
+Programming \& Data Structures \\
+Database Systems \& Applications \\
+Computer Organization Architecture \\
+Computers, Internet \& Society \\
+Introduction to Data Science \\
+Operating System Design \\
+Web Systems Programming \\
+Software Engineering \\
+Probability \& Statistics \\
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     SKILLS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Skills}
+\subsection{Programming}
+\location{Fluent:}
+TypeScript \textbullet{} Python \textbullet{} JavaScript \\
+HTML \textbullet{} CSS \textbullet{} ReactJS \textbullet{} NodeJS\ \\
+SQL \textbullet{} NoSQL \textbullet{} Java \\
+\location{Familiar:}
+C \textbullet{} C++ \textbullet{} Rust \textbullet{} Matlab \\ 
+React Native \textbullet{} R\\
+\sectionsep
+\subsection{Tools}
+MongoDB \textbullet{} Firebase \textbullet{} Expo \\
+Selenium \textbullet{} Scrapy \textbullet{} MERN \\
+Cypress \textbullet{} LDAMallet
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     LANGUAGES
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Languages}
+English \textbullet{} Nepali \textbullet{} Hindi \textbullet{} Urdu
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     COLUMN TWO
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\end{minipage} 
+\hfill
+\begin{minipage}[t]{0.66\textwidth} 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     EXPERIENCE
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Experience}
+
+\runsubsection{\href{https://www.bentley.com/}{Bentley Systems}}
+\descript{| Software Development Co-Op }
+\location{Aug 2019 – Jan 2020 | Philadelphia, PA}
+\vspace{\topsep}
+\begin{tightemize}
+\item Devised integration, end-to-end testing, managed project CI making it much more robust (Cypress, Jest)
+\item Created UI features for \href{https://www.bentley.com/en/products/product-line/project-delivery-software/projectwise-web-view}{ProjectWise Web View} system (ReactJS, TypeScript)
+\item Accomplished client needs with bug fixes and feature addition
+\end{tightemize}
+\sectionsep
+
+\runsubsection{\href{https://das-lab.org/}{Das Lab}}
+\descript{| Undergraduate Research Assistant }
+\location{Feb 2020 - Present | Lehigh University, Bethlehem, PA}
+\begin{tightemize}
+\item Implemented web crawlers for 11 different countries to extract their COVID-19 press releases (Python, Scrapy, Selenium)
+\item Set up automation to google translate huge amounts of text (Python, Selenium)
+\item Analyze text data using various data science techniques (Python, R, LDAMallet)
+\end{tightemize}
+\sectionsep
+
+\runsubsection{\href{https://engineering.lehigh.edu/cse}{CSE Department}}
+\descript{| Teaching Assistant }
+\location{Jan 2019 – Present | Lehigh University, Bethlehem, PA}
+{\bf Courses:} CSE002 (Fundamentals of Programming), CSE241 (Database Systems \& Applications) and CSE252 (Computers, Internet \& Society)
+\begin{tightemize}
+\item Guided 100+ students with complicated  course information and concepts
+\item Assisted with test administration, curriculum development, and grading
+\end{tightemize}
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Leadership
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Leadership}
+\runsubsection{\href{https://studentaffairs.lehigh.edu/content/first-year-experience}{Office of First-Year Experience}}
+\descript{| Camp Counselor and evoLUtion Peer Leader}
+\location{Mar 2018 - Sep 2019 | Lehigh University, Bethlehem, PA}
+Advised 70+ first-year students on successful transition to college \\
+\sectionsep
+\runsubsection{\href{https://global.lehigh.edu/oiss}{Office of International Students and Scholars}}
+\descript{| International Orientation Leader}
+\location{Apr 2018 - Aug 2019 | Lehigh University, Bethlehem, PA}
+Assisted acclimation of 100+ international students to their college experience
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     HONORS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Honors} 
+{\bf Dean's Scholarship:} Lehigh scholarship awarded for 4 years of undergraduate study \\
+{\bf Dean's List:} Fall 2017, Spring 2018, Fall 2018, Spring 2019, Summer 2019 \\
+{\bf \href{https://www.tbp.org/home.cfm}{Tau Beta Pi Engineering Honor Society:}} Awarded to 12\% of students in junior class\\
+{\bf \href{https://business.lehigh.edu/centers/martindale-center/programs/martindale-student-associates-honor-program}{Martindale Scholarship}:} 1 of 12 students selected from 150+ applicants \\ 
+{\bf \href{https://phisigmapi.org/}{Phi Sigma Pi:}} National honor fraternity for students with high academic achievement
+\sectionsep
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     PERSONAL PROJECTS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Personal Projects}
+
+\runsubsection{break} - \href{https://bit.ly/break-extension}{INSTALL}
+\descript{}
+Developed and released chrome extension to put "debugger" on any webpage so that it pauses the page's execution \\
+\sectionsep
+\runsubsection{CheckFact} - \href{https://bit.ly/checkfact-extension}{INSTALL}
+\descript{}
+Designed and published an extension for Chrome Web Browser to quickly fact-check through Snopes \\
+\sectionsep
+\runsubsection{howtosay.link} - \href{https://howtosay.link/}{VISIT}
+\descript{}
+Simple Web Application that generates audio and shareable links to text pronunciations, built using the MERN stack
+\end{minipage} 
+\end{document}  \documentclass[]{article}
