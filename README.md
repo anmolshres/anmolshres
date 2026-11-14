@@ -6,7 +6,27 @@ I'm a Software Engineer 👨‍💻, mostly working with web technologies.
 
 ## Connect with me
 
-[<img align="left" alt="anmolshres | LinkedIn" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/linkedin.svg" />](https://www.linkedin.com/in/shrestha-anmol/)
-[<img align="left" alt="anmolshres | Instagram" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/instagram.svg" />](https://www.instagram.com/anmolshres/)
-[<img align="left" alt="anmolshres | Facebook" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@3.4.0/icons/facebook.svg" />](https://www.facebook.com/shresanmol)
-[<img align="left" alt="anmolshres | GMail" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@3.4.0/icons/gmail.svg" />](mailto:shrestha.anmol.as@gmail.com?subject=Hi👋Anmol)
+<a href="https://www.linkedin.com/in/shrestha-anmol/">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="personal_website/images/icons/linkedin-light.svg">
+    <img align="left" alt="anmolshres | LinkedIn" width="22px" src="personal_website/images/icons/linkedin.svg">
+  </picture>
+</a>
+<a href="https://www.instagram.com/anmolshres/">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="personal_website/images/icons/instagram-light.svg">
+    <img align="left" alt="anmolshres | Instagram" width="22px" src="personal_website/images/icons/instagram.svg">
+  </picture>
+</a>
+<a href="https://www.facebook.com/shresanmol">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="personal_website/images/icons/facebook-light.svg">
+    <img align="left" alt="anmolshres | Facebook" width="22px" src="personal_website/images/icons/facebook.svg">
+  </picture>
+</a>
+<a href="mailto:shrestha.anmol.as@gmail.com?subject=Hi👋Anmol">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="personal_website/images/icons/gmail-light.svg">
+    <img align="left" alt="anmolshres | GMail" width="22px" src="personal_website/images/icons/gmail.svg">
+  </picture>
+</a>
