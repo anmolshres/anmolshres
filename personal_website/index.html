@@ -47,7 +47,20 @@
           </div>
 
           <div class="left-column">
-            <img id="profile_pic" src="images/Anmol.jpeg" alt="Anmol" />
+            <picture>
+              <source
+                type="image/webp"
+                srcset="images/Anmol-200.webp 200w, images/Anmol-400.webp 400w"
+                sizes="200px"
+              />
+              <img
+                id="profile_pic"
+                src="images/Anmol-400.jpg"
+                alt="Anmol"
+                width="200"
+                height="200"
+              />
+            </picture>
             <h5 style="text-align: center; line-height: 0">
               Personalize Theme👇
             </h5>
