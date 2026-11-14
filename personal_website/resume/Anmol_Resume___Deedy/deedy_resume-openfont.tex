@@ -1,3 +1,4 @@
+% !TEX program = xelatex
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Deedy - One Page Two Column Resume
 % LaTeX Template
@@ -47,6 +48,8 @@
 
 \documentclass[]{deedy-resume-openfont}
 \usepackage{fancyhdr}
+\usepackage[none]{hyphenat}
+\sloppy
  
 \pagestyle{fancy}
 \fancyhf{}
@@ -65,45 +68,30 @@
 %     TITLE NAME
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\namesection{Anmol}{Shrestha}{ \urlstyle{same}\href{https://www.anmolshrestha.com/}{anmolshrestha.com} | \href{https://www.linkedin.com/in/shrestha-anmol/}{linkedin.com/shrestha-anmol}\\
-\href{mailto:shrestha.anmol.as@gmail.com}{shrestha.anmol.as@gmail.com} | \href{tel:4847473285}{(484)747-3285} | \href{mailto:ans221@lehigh.edu}{ans221@lehigh.edu}
+\namesection{Anmol}{Shrestha}{ \urlstyle{same}\href{https://www.anmolshrestha.com/}{anmolshrestha.com} | \href{https://www.linkedin.com/in/shrestha-anmol/}{linkedin.com/in/shrestha-anmol} | Rochester, MN\\
+\href{mailto:shrestha.anmol.as@gmail.com}{shrestha.anmol.as@gmail.com} | \href{tel:4847473285}{(484) 747-3285}
 }
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %
-%     COLUMN ONE
+%     PAGE ONE - COLUMN ONE
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\begin{minipage}[t]{0.33\textwidth} 
+\begin{minipage}[t]{0.33\textwidth}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %     EDUCATION
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\section{Education} 
+\section{Education}
 
 \subsection{Lehigh University}
 \descript{BS in Computer Science}
-\descript{minor in Physics}
 \location{May 2021 | Bethlehem, PA}
-College of Engineering \\
-\location{ Cumulative GPA: 3.89 / 4.0 \\
-Major GPA: 3.91 / 4.0}
-\sectionsep
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%     LINKS
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-\section{Links} 
-Portfolio://  \href{https://www.anmolshrestha.com/}{\bf anmolshrestha.com} \\
-LinkedIn://  \href{https://www.linkedin.com/in/shrestha-anmol}{\bf shrestha-anmol} \\
-Github:// \href{https://github.com/shresshres}{\bf shresshres} \\
-Twitter://  \href{https://twitter.com/anmolshres}{\bf @anmolshres} \\
-Email://  \href{mailto:shrestha.anmol.as@gmail.com}{\bf shrestha.anmol.as} \\
-Lehigh Email://  \href{mailto:ans221@lehigh.edu}{\bf ans221}
-
+P.C. Rossin College of Engineering \\
+\location{GPA: 3.91 / 4.0 \\
+Graduated with Highest Honors}
 \sectionsep
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -111,17 +99,11 @@ Lehigh Email://  \href{mailto:ans221@lehigh.edu}{\bf ans221}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \section{Coursework}
-\subsection{Undergraduate}
-Design and Analysis of Algorithms \\
-Programming \& Data Structures \\
-Database Systems \& Applications \\
-Computer Organization Architecture \\
-Computers, Internet \& Society \\
-Introduction to Data Science \\
-Operating System Design \\
-Web Systems Programming \\
-Software Engineering \\
-Probability \& Statistics \\
+\subsection{Data \& Math}
+Intro to Data Science \textbullet{} Probability \& Statistics \textbullet{} Statistical Methods \textbullet{} Linear Methods \textbullet{} Calculus I -- III
+\sectionsep
+\subsection{Computer Science}
+Algorithms \textbullet{} Data Structures \textbullet{} Database Systems \textbullet{} Operating Systems \textbullet{} Theory of Computation \textbullet{} Software Engineering
 \sectionsep
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -129,37 +111,50 @@ Probability \& Statistics \\
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \section{Skills}
-\subsection{Programming}
-\location{Fluent:}
-TypeScript \textbullet{} Python \textbullet{} JavaScript \\
-HTML \textbullet{} CSS \textbullet{} ReactJS \textbullet{} NodeJS\ \\
-SQL \textbullet{} NoSQL \textbullet{} Java \\
+\subsection{Languages}
+\location{Proficient:}
+TypeScript \textbullet{} JavaScript \\
+Java \textbullet{} SQL \\
 \location{Familiar:}
-C \textbullet{} C++ \textbullet{} Rust \textbullet{} Matlab \\ 
-React Native \textbullet{} R\\
+Python \textbullet{} R \textbullet{} C\# \\
+Rust \textbullet{} C/C++ \\
 \sectionsep
-\subsection{Tools}
-MongoDB \textbullet{} Firebase \textbullet{} Expo \\
-Selenium \textbullet{} Scrapy \textbullet{} MERN \\
-Cypress \textbullet{} LDAMallet
+\subsection{Data \& Backend}
+Node.js \textbullet{} Spring Boot \\
+MongoDB \textbullet{} SQLite \textbullet{} ECSQL \\
+REST \textbullet{} OpenAPI \textbullet{} WebSockets \\
+OAuth 2.0 / OIDC \textbullet{} OpenTelemetry \\
+\sectionsep
+\subsection{Cloud, DevOps \& Security}
+Azure DevOps \textbullet{} Azure APIM \\
+GitHub Actions \textbullet{} Docker \textbullet{} CI/CD \\
+Threat Modeling \textbullet{} Security Scanning \\
+\sectionsep
+\subsection{Testing \& Frontend}
+Playwright \textbullet{} Vitest \textbullet{} Jest \\
+React \textbullet{} Electron \textbullet{} CesiumJS \\
+\sectionsep
+\subsection{Research \& AI Tools}
+Scrapy \textbullet{} Selenium \textbullet{} LDA (MALLET) \\
+GitHub Copilot \textbullet{} AI Agent Workflows \\
 \sectionsep
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%     LANGUAGES
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-\section{Languages}
-English \textbullet{} Nepali \textbullet{} Hindi \textbullet{} Urdu
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%
-%     COLUMN TWO
-%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-\end{minipage} 
+\end{minipage}
 \hfill
-\begin{minipage}[t]{0.66\textwidth} 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     PAGE ONE - COLUMN TWO
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{minipage}[t]{0.66\textwidth}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     SUMMARY
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Summary}
+Software engineer with 5+ years building data services, APIs, and 3D/geospatial software at Bentley Systems. Former undergraduate researcher in text data analysis and current Mayo Clinic hospice volunteer, eager to contribute to AI research that improves patient care.
+\sectionsep
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %     EXPERIENCE
@@ -168,78 +163,192 @@ English \textbullet{} Nepali \textbullet{} Hindi \textbullet{} Urdu
 \section{Experience}
 
 \runsubsection{\href{https://www.bentley.com/}{Bentley Systems}}
-\descript{| Software Development Co-Op }
-\location{Aug 2019 – Jan 2020 | Philadelphia, PA}
+\descript{| Software Engineer II}
+\location{Jul 2021 – Present}
+Associate Software Engineer (Jul 2021) $\rightarrow$ Software Engineer I (Aug 2022) $\rightarrow$ Software Engineer II (2026)
+\vspace{6pt}
+
+
+{\bf iTwin Sensor Data API} \textit{(Java, Spring Boot, MongoDB)}
 \vspace{\topsep}
 \begin{tightemize}
-\item Devised integration, end-to-end testing, managed project CI making it much more robust (Cypress, Jest)
-\item Created UI features for \href{https://www.bentley.com/en/products/product-line/project-delivery-software/projectwise-web-view}{ProjectWise Web View} system (ReactJS, TypeScript)
-\item Accomplished client needs with bug fixes and feature addition
+\item Built the backend for a new IoT sensor data API from the database layer up, with REST endpoints for sensors, metrics, and time-series observations
+\item Added real-time streaming of sensor observations over authenticated WebSockets
+\item Implemented OAuth token exchange and scope-based access control; shipped the API through Azure API Management
+\end{tightemize}
+\vspace{4pt}
+
+{\bf Geospatial REST Service} \textit{(TypeScript, Node.js)}
+\begin{tightemize}
+\item Took a coordinate reference system service from prototype to production with OpenAPI docs, auth middleware, and OpenTelemetry
+\item Set up automated security scanning in CI (static, dependency, and dynamic scans) and fixed the vulnerabilities it reported
+\end{tightemize}
+\vspace{4pt}
+
+{\bf iTwin.js} \textit{(open source, TypeScript)} \href{https://github.com/iTwin/itwinjs-core}{github.com/iTwin/itwinjs-core}
+\begin{tightemize}
+\item Contributor to Bentley's open-source digital twin platform; fixed bugs in ECSQL query APIs and database connection lifecycle
+\item Ran minor releases and hardened the CI supply chain (pinned actions, lockfile audits, least-privilege tokens)
+\end{tightemize}
+\vspace{4pt}
+
+{\bf Geospatial \& 3D Terrain Apps} \textit{(React, iTwin.js, CesiumJS)}
+\begin{tightemize}
+\item Core contributor to a geospatial editing app for infrastructure models (700+ commits): model extents and transform tools, sync correctness fixes, and Playwright end-to-end test suites
+\item Built a 3D road and terrain design app that turns 2D engineering drawing sheets into 3D terrain meshes, developed mostly by directing AI coding agents (GitHub Copilot): extracted cross-sections and elevations from drawing geometry and text, generated triangulated (Delaunay) terrain surfaces, and built a cross-section editor and LandXML export
+\end{tightemize}
+\vspace{4pt}
+
+{\bf Data \& Developer Tooling}
+\begin{tightemize}
+\item Built a tool (CLI, web UI, desktop app) to copy digital twin databases across environments with full change history, and a VS Code extension providing an interactive SQL (ECSQL) console
+\item Migrated a backend service's database to MongoDB and authored its threat model
+\item Earlier: shipped features and error handling for ProjectWise Drive, a desktop file sync client (Electron, React)
+\end{tightemize}
+\vspace{4pt}
+
+{\bf Mentoring \& AI-Assisted Engineering}
+\begin{tightemize}
+\item Mentored 2 associate software engineers during their 6-month team rotations
+\item Wrote reusable AI agent skills, including a multi-agent iterative code review workflow, shared with engineering teams
 \end{tightemize}
 \sectionsep
 
-\runsubsection{\href{https://das-lab.org/}{Das Lab}}
-\descript{| Undergraduate Research Assistant }
-\location{Feb 2020 - Present | Lehigh University, Bethlehem, PA}
-\begin{tightemize}
-\item Implemented web crawlers for 11 different countries to extract their COVID-19 press releases (Python, Scrapy, Selenium)
-\item Set up automation to google translate huge amounts of text (Python, Selenium)
-\item Analyze text data using various data science techniques (Python, R, LDAMallet)
-\end{tightemize}
-\sectionsep
+\end{minipage}
 
-\runsubsection{\href{https://engineering.lehigh.edu/cse}{CSE Department}}
-\descript{| Teaching Assistant }
-\location{Jan 2019 – Present | Lehigh University, Bethlehem, PA}
-{\bf Courses:} CSE002 (Fundamentals of Programming), CSE241 (Database Systems \& Applications) and CSE252 (Computers, Internet \& Society)
-\begin{tightemize}
-\item Guided 100+ students with complicated  course information and concepts
-\item Assisted with test administration, curriculum development, and grading
-\end{tightemize}
-\sectionsep
+\newpage
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%     Leadership
+%
+%     PAGE TWO - COLUMN ONE
+%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section{Leadership}
-\runsubsection{\href{https://studentaffairs.lehigh.edu/content/first-year-experience}{Office of First-Year Experience}}
-\descript{| Camp Counselor and evoLUtion Peer Leader}
-\location{Mar 2018 - Sep 2019 | Lehigh University, Bethlehem, PA}
-Advised 70+ first-year students on successful transition to college \\
+
+\begin{minipage}[t]{0.33\textwidth}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     LINKS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Links}
+Portfolio://  \href{https://www.anmolshrestha.com/}{\bf anmolshrestha.com} \\
+LinkedIn://  \href{https://www.linkedin.com/in/shrestha-anmol}{\bf shrestha-anmol} \\
+GitHub (personal):// \href{https://github.com/anmolshres}{\bf anmolshres} \\
+GitHub (work):// \href{https://github.com/anmolshres98}{\bf anmolshres98} \\
+Email://  \href{mailto:shrestha.anmol.as@gmail.com}{\bf shrestha.anmol.as}
 \sectionsep
-\runsubsection{\href{https://global.lehigh.edu/oiss}{Office of International Students and Scholars}}
-\descript{| International Orientation Leader}
-\location{Apr 2018 - Aug 2019 | Lehigh University, Bethlehem, PA}
-Assisted acclimation of 100+ international students to their college experience
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %     HONORS
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\section{Honors} 
-{\bf Dean's Scholarship:} Lehigh scholarship awarded for 4 years of undergraduate study \\
-{\bf Dean's List:} Fall 2017, Spring 2018, Fall 2018, Spring 2019, Summer 2019 \\
-{\bf \href{https://www.tbp.org/home.cfm}{Tau Beta Pi Engineering Honor Society:}} Awarded to 12\% of students in junior class\\
-{\bf \href{https://business.lehigh.edu/centers/martindale-center/programs/martindale-student-associates-honor-program}{Martindale Scholarship}:} 1 of 12 students selected from 150+ applicants \\ 
-{\bf \href{https://phisigmapi.org/}{Phi Sigma Pi:}} National honor fraternity for students with high academic achievement
+\section{Honors}
+{\bf Highest Honors:} Lehigh University, 2021 \\
+{\bf Dean's Scholarship:} Awarded for 4 years of undergraduate study \\
+{\bf Dean's List:} All eligible semesters, 2017 – 2021 \\
+{\bf \href{https://www.tbp.org/home.cfm}{Tau Beta Pi}:} Engineering honor society, top 12\% of junior class \\
+{\bf \href{https://business.lehigh.edu/centers/martindale-center/programs/martindale-student-associates-honors-program}{Martindale Student Associate}:} 1 of 12 students selected from 150+ applicants \\
+{\bf \href{https://phisigmapi.org/}{Phi Sigma Pi}:} National honor fraternity
 \sectionsep
-
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%     PERSONAL PROJECTS
+%     LANGUAGES
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section{Personal Projects}
 
-\runsubsection{break} - \href{https://bit.ly/break-extension}{INSTALL}
-\descript{}
-Developed and released chrome extension to put "debugger" on any webpage so that it pauses the page's execution \\
+\section{Languages}
+English \textbullet{} Nepali \textbullet{} Hindi \textbullet{} Urdu
 \sectionsep
-\runsubsection{CheckFact} - \href{https://bit.ly/checkfact-extension}{INSTALL}
-\descript{}
-Designed and published an extension for Chrome Web Browser to quickly fact-check through Snopes \\
+
+\end{minipage}
+\hfill
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     PAGE TWO - COLUMN TWO
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{minipage}[t]{0.66\textwidth}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     RESEARCH
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Research \& Publications}
+
+\runsubsection{\href{https://das-lab.org/}{Das Lab}}
+\descript{| Undergraduate Research Assistant}
+\location{Jan 2020 – May 2021 | Lehigh University, Bethlehem, PA}
+Laboratory for Design, Algorithms, and Society: analyzing COVID-19 public messaging from governments
+\vspace{\topsep}
+\begin{tightemize}
+\item Built web crawlers for 11 countries' government sites to collect COVID-19 press releases (Python, Scrapy, Selenium)
+\item Automated translation of large non-English text corpora into English (Python, Selenium)
+\item Analyzed the corpus with topic modeling (LDA/MALLET) and regression modeling of US state messaging (Python, R)
+\end{tightemize}
 \sectionsep
-\runsubsection{howtosay.link} - \href{https://howtosay.link/}{VISIT}
+
+\runsubsection{Publication}
+\descript{| Martindale Center, Lehigh University}
+\location{Perspectives on Business and Economics, Vol. 38, 2020}
+Shrestha, A. ``Harnessing Argentina's Lithium with Positive Local Impact.'' Researched and wrote an article on Argentina's lithium reserves and how the country could benefit from rising global demand while protecting local communities
+\sectionsep
+
+\runsubsection{Capstone Project}
+\descript{| Lehigh University}
+\location{Jan 2020 – Dec 2020}
+Built a browser extension that scores Amazon product pages for likely fake reviews, integrating a pre-trained ML model developed by a Lehigh professor
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     VOLUNTEERING
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Volunteering}
+
+\runsubsection{Mayo Clinic}
+\descript{| Hospice Volunteer}
+\location{Nov 2024 – Present | Rochester, MN}
+Patient visits, vigil presence for patients near end of life, and tabling at hospice events
+\sectionsep
+
+\runsubsection{\href{https://patadeperrobikeclu.wixsite.com/rochester-bike-club}{Pata de Perro Bike Club}}
+\descript{| Volunteer Bike Mechanic}
+\location{Jun 2026 – Present | Rochester, MN}
+Repair donated bikes for community members; will also help build a new web app for the club
+\sectionsep
+
+\runsubsection{\href{https://freeridepgh.org/}{Free Ride}}
+\descript{| Volunteer Bike Mechanic}
+\location{Jul 2025 – Nov 2025 | Pittsburgh, PA}
+Repaired bikes so they could go back to the community
+\sectionsep
+
+\runsubsection{Nepal Red Cross Society}
+\descript{| First Aid Volunteer}
+\location{Jul 2016 – Aug 2017 | Kathmandu, Nepal}
+Led a team of 10 first aid volunteers providing care at public events; lifetime member. Also helped with search and rescue and relief distribution after the 2015 Nepal earthquake
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     EARLIER EXPERIENCE
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{College Experience}
+
+\runsubsection{\href{https://www.bentley.com/}{Bentley Systems}}
+\descript{| Software Engineering Intern \& Co-Op}
+\location{Feb 2021 – May 2021 \textbullet{} Aug 2019 – Jan 2020 | Philadelphia, PA}
+Built UI features for ProjectWise Web View (React, TypeScript) and set up its integration and end-to-end tests (Cypress, Jest)
+\sectionsep
+
+\runsubsection{\href{https://engineering.lehigh.edu/cse}{CSE Department}}
+\descript{| Teaching Assistant \& Tutor}
+\location{Oct 2018 – Jan 2021 | Lehigh University}
+TA for Fundamentals of Programming, Database Systems, and Computers, Internet \& Society, helping 100+ students. Peer tutor for calculus
+\sectionsep
+
+\runsubsection{Leadership}
 \descript{}
-Simple Web Application that generates audio and shareable links to text pronunciations, built using the MERN stack
-\end{minipage} 
-\end{document}  \documentclass[]{article}
+Vice President, LU Diplomats; admissions interviewer for international applicants (2017 – 2021) \textbullet{} Camp Counselor \& Peer Leader, Office of First-Year Experience (70+ students) \textbullet{} International Orientation Leader, Office of International Students and Scholars (100+ students)
+
+\end{minipage}
+\end{document}
