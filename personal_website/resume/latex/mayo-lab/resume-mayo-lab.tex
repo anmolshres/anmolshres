@@ -46,6 +46,9 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 
+% Load the class and fonts from ../template
+\makeatletter\def\input@path{{../template/}}\makeatother
+\newcommand{\resumefontdir}{../template/fonts/}
 \documentclass[]{deedy-resume-openfont}
 \usepackage{fancyhdr}
 \usepackage[none]{hyphenat}
@@ -69,7 +72,7 @@
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \namesection{Anmol}{Shrestha}{ \urlstyle{same}\href{https://www.anmolshrestha.com/}{anmolshrestha.com} | \href{https://www.linkedin.com/in/shrestha-anmol/}{linkedin.com/in/shrestha-anmol} | Rochester, MN\\
-\href{mailto:shrestha.anmol.as@gmail.com}{shrestha.anmol.as@gmail.com} | \href{tel:4847473285}{(484) 747-3285}
+\href{mailto:shrestha.anmol.as@proton.me}{shrestha.anmol.as@proton.me} | \href{tel:4847473285}{(484) 747-3285}
 }
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -135,7 +138,7 @@ Playwright \textbullet{} Vitest \textbullet{} Jest \\
 React \textbullet{} Electron \textbullet{} CesiumJS \\
 \sectionsep
 \subsection{Research \& AI Tools}
-Scrapy \textbullet{} Selenium \textbullet{} LDA (MALLET) \\
+Scrapy \textbullet{} Selenium \\
 GitHub Copilot \textbullet{} AI Agent Workflows \\
 \sectionsep
 
@@ -153,7 +156,7 @@ GitHub Copilot \textbullet{} AI Agent Workflows \\
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \section{Summary}
-Software engineer with 5+ years building data services, APIs, and 3D/geospatial software at Bentley Systems. Former undergraduate researcher in text data analysis and current Mayo Clinic hospice volunteer, eager to contribute to AI research that improves patient care.
+Software engineer with 5+ years building data services, APIs, and 3D/geospatial software at Bentley Systems. Former undergraduate research assistant on a COVID-19 public messaging study and current Mayo Clinic hospice volunteer, eager to contribute to AI research that improves patient care.
 \sectionsep
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -165,45 +168,29 @@ Software engineer with 5+ years building data services, APIs, and 3D/geospatial 
 \runsubsection{\href{https://www.bentley.com/}{Bentley Systems}}
 \descript{| Software Engineer II}
 \location{Jul 2021 – Present}
-Associate Software Engineer (Jul 2021) $\rightarrow$ Software Engineer I (Aug 2022) $\rightarrow$ Software Engineer II (2026)
+Associate Software Engineer (Jul 2021) $\rightarrow$ Software Engineer I (Aug 2022) $\rightarrow$ Software Engineer II (Apr 2026)
 \vspace{6pt}
 
 
 {\bf iTwin Sensor Data API} \textit{(Java, Spring Boot, MongoDB)}
 \vspace{\topsep}
 \begin{tightemize}
-\item Built the backend for a new IoT sensor data API from the database layer up, with REST endpoints for sensors, metrics, and time-series observations
+\item Helped build the backend for a new IoT sensor data API, with REST endpoints for sensors, metrics, and time-series observations
 \item Added real-time streaming of sensor observations over authenticated WebSockets
 \item Implemented OAuth token exchange and scope-based access control; shipped the API through Azure API Management
 \end{tightemize}
 \vspace{4pt}
 
-{\bf Geospatial REST Service} \textit{(TypeScript, Node.js)}
+{\bf 2D Drawings to 3D Terrain} \textit{(TypeScript, React)}
 \begin{tightemize}
-\item Took a coordinate reference system service from prototype to production with OpenAPI docs, auth middleware, and OpenTelemetry
-\item Set up automated security scanning in CI (static, dependency, and dynamic scans) and fixed the vulnerabilities it reported
+\item Built an app that turns 2D engineering drawing sheets into 3D terrain models, developed mostly by directing AI coding agents (GitHub Copilot)
+\item Extracted cross-sections and elevations from drawing geometry and text, generated triangulated (Delaunay) terrain surfaces, and built a cross-section editor and LandXML export
 \end{tightemize}
 \vspace{4pt}
 
-{\bf iTwin.js} \textit{(open source, TypeScript)} \href{https://github.com/iTwin/itwinjs-core}{github.com/iTwin/itwinjs-core}
-\begin{tightemize}
-\item Contributor to Bentley's open-source digital twin platform; fixed bugs in ECSQL query APIs and database connection lifecycle
-\item Ran minor releases and hardened the CI supply chain (pinned actions, lockfile audits, least-privilege tokens)
-\end{tightemize}
-\vspace{4pt}
-
-{\bf Geospatial \& 3D Terrain Apps} \textit{(React, iTwin.js, CesiumJS)}
-\begin{tightemize}
-\item Core contributor to a geospatial editing app for infrastructure models (700+ commits): model extents and transform tools, sync correctness fixes, and Playwright end-to-end test suites
-\item Built a 3D road and terrain design app that turns 2D engineering drawing sheets into 3D terrain meshes, developed mostly by directing AI coding agents (GitHub Copilot): extracted cross-sections and elevations from drawing geometry and text, generated triangulated (Delaunay) terrain surfaces, and built a cross-section editor and LandXML export
-\end{tightemize}
-\vspace{4pt}
-
-{\bf Data \& Developer Tooling}
+{\bf Data Tooling} \textit{(TypeScript, SQL)}
 \begin{tightemize}
 \item Built a tool (CLI, web UI, desktop app) to copy digital twin databases across environments with full change history, and a VS Code extension providing an interactive SQL (ECSQL) console
-\item Migrated a backend service's database to MongoDB and authored its threat model
-\item Earlier: shipped features and error handling for ProjectWise Drive, a desktop file sync client (Electron, React)
 \end{tightemize}
 \vspace{4pt}
 
@@ -211,6 +198,23 @@ Associate Software Engineer (Jul 2021) $\rightarrow$ Software Engineer I (Aug 20
 \begin{tightemize}
 \item Mentored 2 associate software engineers during their 6-month team rotations
 \item Wrote reusable AI agent skills, including a multi-agent iterative code review workflow, shared with engineering teams
+\end{tightemize}
+\vspace{4pt}
+Also built geospatial web apps and REST services (TypeScript, React, Node.js) and contributed to the open-source iTwin.js platform
+\sectionsep
+
+
+\section{Research}
+
+\runsubsection{\href{https://das-lab.org/}{Das Lab}}
+\descript{| Undergraduate Research Assistant}
+\location{Jan 2020 – May 2021 | Lehigh University, Bethlehem, PA}
+Laboratory for Design, Algorithms, and Society: analyzing COVID-19 public messaging from governments
+\vspace{\topsep}
+\begin{tightemize}
+\item Built web crawlers for 11 countries' government sites to collect COVID-19 press releases (Python, Scrapy, Selenium)
+\item Automated translation of large non-English text corpora into English (Python, Selenium)
+\item Prepared the collected text for the lab's statistical analysis of how US states communicated about COVID-19
 \end{tightemize}
 \sectionsep
 
@@ -235,7 +239,7 @@ Portfolio://  \href{https://www.anmolshrestha.com/}{\bf anmolshrestha.com} \\
 LinkedIn://  \href{https://www.linkedin.com/in/shrestha-anmol}{\bf shrestha-anmol} \\
 GitHub (personal):// \href{https://github.com/anmolshres}{\bf anmolshres} \\
 GitHub (work):// \href{https://github.com/anmolshres98}{\bf anmolshres98} \\
-Email://  \href{mailto:shrestha.anmol.as@gmail.com}{\bf shrestha.anmol.as}
+Email://  \href{mailto:shrestha.anmol.as@proton.me}{\bf shrestha.anmol.as}
 \sectionsep
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -272,19 +276,7 @@ English \textbullet{} Nepali \textbullet{} Hindi \textbullet{} Urdu
 %     RESEARCH
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\section{Research \& Publications}
-
-\runsubsection{\href{https://das-lab.org/}{Das Lab}}
-\descript{| Undergraduate Research Assistant}
-\location{Jan 2020 – May 2021 | Lehigh University, Bethlehem, PA}
-Laboratory for Design, Algorithms, and Society: analyzing COVID-19 public messaging from governments
-\vspace{\topsep}
-\begin{tightemize}
-\item Built web crawlers for 11 countries' government sites to collect COVID-19 press releases (Python, Scrapy, Selenium)
-\item Automated translation of large non-English text corpora into English (Python, Selenium)
-\item Analyzed the corpus with topic modeling (LDA/MALLET) and regression modeling of US state messaging (Python, R)
-\end{tightemize}
-\sectionsep
+\section{Publication \& Projects}
 
 \runsubsection{Publication}
 \descript{| Martindale Center, Lehigh University}
@@ -301,6 +293,7 @@ Built a browser extension that scores Amazon product pages for likely fake revie
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %     VOLUNTEERING
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\sectionsep
 
 \section{Volunteering}
 
@@ -310,10 +303,9 @@ Built a browser extension that scores Amazon product pages for likely fake revie
 Patient visits, vigil presence for patients near end of life, and tabling at hospice events
 \sectionsep
 
-\runsubsection{\href{https://patadeperrobikeclu.wixsite.com/rochester-bike-club}{Pata de Perro Bike Club}}
-\descript{| Volunteer Bike Mechanic}
-\location{Jun 2026 – Present | Rochester, MN}
-Repair donated bikes for community members; will also help build a new web app for the club
+\runsubsection{\href{https://patadeperrobikeclu.wixsite.com/rochester-bike-club}{Rochester Community Bike Club - Pata de Perro}}
+\location{Volunteer | Jun 2026 – Present | Rochester, MN}
+Repair donated bikes for community members and help run events; helping build a web app to track donated bike inventory and repair status
 \sectionsep
 
 \runsubsection{\href{https://freeridepgh.org/}{Free Ride}}

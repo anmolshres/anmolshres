@@ -1,0 +1,2 @@
+# Keep the resume LaTeX sources off the public site. Only the PDF is meant to be served.
+/resume/latex/*  /404  404!

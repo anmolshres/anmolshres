@@ -1,0 +1,181 @@
+% !TEX program = xelatex
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Deedy - One Page Two Column Resume
+% LaTeX Template
+% Version 1.2 (16/9/2014)
+%
+% Original author:
+% Debarghya Das (http://debarghyadas.com)
+%
+% Original repository:
+% https://github.com/deedydas/Deedy-Resume
+%
+% IMPORTANT: THIS TEMPLATE NEEDS TO BE COMPILED WITH XeLaTeX
+%
+% This template uses several fonts not included with Windows/Linux by
+% default. If you get compilation errors saying a font is missing, find the line
+% on which the font is used and either change it to a font included with your
+% operating system or comment the line out to use the default font.
+% 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% 
+% TODO:
+% 1. Integrate biber/bibtex for article citation under publications.
+% 2. Figure out a smoother way for the document to flow onto the next page.
+% 3. Add styling information for a "Projects/Hacks" section.
+% 4. Add location/address information
+% 5. Merge OpenFont and MacFonts as a single sty with options.
+% 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% CHANGELOG:
+% v1.1:
+% 1. Fixed several compilation bugs with \renewcommand
+% 2. Got Open-source fonts (Windows/Linux support)
+% 3. Added Last Updated
+% 4. Move Title styling into .sty
+% 5. Commented .sty file.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% Known Issues:
+% 1. Overflows onto second page if any column's contents are more than the
+% vertical limit
+% 2. Hacky space on the first bullet point on the second column.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+% Load the class and fonts from ../template
+\makeatletter\def\input@path{{../template/}}\makeatother
+\newcommand{\resumefontdir}{../template/fonts/}
+\documentclass[]{deedy-resume-openfont}
+\usepackage{fancyhdr}
+\usepackage[none]{hyphenat}
+\sloppy
+ 
+\pagestyle{fancy}
+\fancyhf{}
+ 
+\begin{document}
+
+\lastupdated
+
+\namesection{Anmol}{Shrestha}{ \urlstyle{same}\href{https://www.anmolshrestha.com/}{anmolshrestha.com} | \href{https://www.linkedin.com/in/shrestha-anmol/}{linkedin.com/in/shrestha-anmol} | Rochester, MN\\
+\href{mailto:shrestha.anmol.as@proton.me}{shrestha.anmol.as@proton.me}
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     COLUMN ONE
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{minipage}[t]{0.30\textwidth}
+
+\section{Education}
+\subsection{Lehigh University}
+\descript{BS in Computer Science}
+\location{May 2021 | Bethlehem, PA}
+P.C. Rossin College of Engineering \\
+GPA: 3.91 / 4.0 \\
+Graduated with Highest Honors \\
+\sectionsep
+
+\section{Links}
+\href{https://github.com/anmolshres}{\bf github.com/anmolshres} \\
+\href{https://github.com/anmolshres98}{\bf github.com/anmolshres98}
+\sectionsep
+
+\section{Coursework}
+Algorithms \textbullet{} Data Structures \\
+Database Systems \textbullet{} Data Science \\
+Software Engineering \\ Systems Software \\
+Probability \& Statistics \\
+\sectionsep
+
+\section{Skills}
+\subsection{Languages}
+\location{Proficient:}
+TypeScript \textbullet{} JavaScript \\
+Java \textbullet{} SQL \\
+\location{Familiar:}
+Python \textbullet{} R \textbullet{} C\# \textbullet{} Rust \\
+\sectionsep
+\subsection{Frameworks \& Data}
+React \textbullet{} Node.js \textbullet{} Electron \\
+Spring Boot \textbullet{} REST \textbullet{} OpenAPI \\
+MongoDB \textbullet{} SQLite \textbullet{} WebSockets \\
+\sectionsep
+\subsection{Cloud \& Tooling}
+Azure \textbullet{} Azure DevOps \\
+GitHub Actions \textbullet{} Docker \\
+Playwright \textbullet{} Vitest \\
+OAuth 2.0 \textbullet{} Threat Modeling \\
+GitHub Copilot \textbullet{} AI Agents \\
+\sectionsep
+
+\section{Honors}
+Highest Honors, Lehigh 2021 \\
+Dean's Scholarship (4 years) \\
+Dean's List, all semesters \\
+Tau Beta Pi \textbullet{} Phi Sigma Pi \\
+Martindale Student Associate \\
+\sectionsep
+
+\section{Languages}
+English \textbullet{} Nepali \textbullet{} Hindi \textbullet{} Urdu
+
+\end{minipage}
+\hfill
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     COLUMN TWO
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{minipage}[t]{0.67\textwidth}
+
+\section{Experience}
+\runsubsection{\href{https://www.bentley.com/}{Bentley Systems}}
+\descript{| Software Engineer II}
+\location{Jul 2021 – Present | Associate SWE $\rightarrow$ SWE I (Aug 2022) $\rightarrow$ SWE II (Apr 2026)}
+\vspace{\topsep}
+\begin{tightemize}
+\item {\bf iTwin Sensor Data API:} helped build the backend for a new IoT sensor data API with REST endpoints for time-series data and real-time WebSocket streaming (Java, Spring Boot, MongoDB)
+\item {\bf Geospatial services and apps:} played a key role in taking a coordinate reference system REST service to production, and was one of the lead contributors to a web app for editing and placing digital twins on the map (TypeScript, React, Node.js)
+\item {\bf 2D drawings to 3D terrain:} built, largely by directing AI coding agents, an app that turns 2D engineering drawings into 3D terrain meshes, with a cross-section editor and LandXML export
+\item {\bf Open source:} fixed bugs, helped with releases on a rotating team schedule, and hardened CI for the iTwin.js platform
+\item {\bf Tooling:} built a tool to copy digital twin databases across environments, a VS Code SQL console extension, and features for ProjectWise Drive (Electron, React)
+\item Mentored 2 associate engineers
+\end{tightemize}
+\location{Intern \& Co-Op: Feb – May 2021, Aug 2019 – Jan 2020 | Philadelphia, PA}
+\sectionsep
+
+\section{Research}
+\runsubsection{\href{https://das-lab.org/}{Das Lab}}
+\descript{| Undergraduate Research Assistant}
+\location{Jan 2020 – May 2021 | Lehigh University}
+\begin{tightemize}
+\item Built web crawlers for 11 countries' government sites to collect COVID-19 press releases (Python, Scrapy, Selenium)
+\item Prepared the collected text for the lab's statistical analysis of how US states communicated about COVID-19
+\end{tightemize}
+\vspace{4pt}
+{\bf Publication:} Shrestha, A. ``Harnessing Argentina's Lithium with Positive Local Impact.'' \textit{Perspectives on Business and Economics}, Vol. 38, 2020
+\sectionsep
+
+\section{Projects}
+\vspace{\topsep}
+\begin{tightemize}
+\item {\bf Capstone:} browser extension that scores Amazon reviews for authenticity using a pre-trained ML model
+\item \href{https://github.com/anmolshres/chrome-extension-snopes}{\bf CheckFact:} Chrome extension that searches Snopes for highlighted text to fact-check any page
+\item \href{https://github.com/anmolshres/break}{\bf Break:} Chrome extension that pauses any page's JavaScript with a debugger statement
+\item {\bf Open source:} documentation contributions to CesiumGS
+\end{tightemize}
+\sectionsep
+
+\section{Volunteering}
+Hospice Volunteer, Mayo Clinic (Nov 2024 – Present) \\
+Volunteer Bike Mechanic, Rochester Community Bike Club - Pata de Perro (Jun 2026 – Present) and Free Ride, Pittsburgh (2025) \\
+First Aid Volunteer, Nepal Red Cross Society (2016 – 2017)
+\sectionsep
+
+\section{Teaching \& Leadership}
+TA for 3 CS courses and calculus peer tutor (100+ students) \textbullet{} VP, LU Diplomats \textbullet{} First-Year and International Orientation Leader
+
+\end{minipage}
+\end{document}

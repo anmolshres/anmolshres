@@ -5,3 +5,6 @@
 *.log
 *.out
 *.synctex.gz
+*.xdv
+# Local Netlify folder
+.netlify
